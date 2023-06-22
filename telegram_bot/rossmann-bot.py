@@ -21,7 +21,7 @@ TOKEN = '6082823923:AAE3h9PNcQWt6u6Wee7DEbI_XwsSlxbWCVo'
 #https://api.telegram.org/bot6082823923:AAE3h9PNcQWt6u6Wee7DEbI_XwsSlxbWCVo/setWebhook?url=https://rossmann-bot.herokuapp.com
 #
 ## send message
-#https://api.telegram.org/bot6082823923:AAE3h9PNcQWt6u6Wee7DEbI_XwsSlxbWCVo/sendMessage?chat_id=449124440&text=Hi Meigarom, I am doing good, tks!
+#https://api.telegram.org/bot6082823923:AAE3h9PNcQWt6u6Wee7DEbI_XwsSlxbWCVo/sendMessage?chat_id=6082823923&text=Hi Meigarom, I am doing good, tks!
 #
 def send_message( chat_id, text ):
     url = 'https://api.telegram.org/bot{}/'.format( TOKEN ) 
